@@ -24,6 +24,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
+.container {
+	display: flex;
+	border: 10px solid mistyrose;
+	min-height: 100vh;
+	align-items: center;
+	flex-direction: column;
+}
+
 .box1 {
 	font-size: 30px;
 }
@@ -44,10 +52,4 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	font-size: 77px;
 }
 
-.container {
-	display: flex;
-	border: 10px solid mistyrose;
-	min-height: 100vh;
-	align-items: baseline;
-}
 
